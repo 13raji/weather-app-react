@@ -17,6 +17,12 @@ p {
   font-size: x-small;
   margin: 0;
 }
+.card {
+  padding: 0;
+}
+.cardBody {
+  padding: 13px;
+}
 
 h3 {
   font-size: 1.6rem;

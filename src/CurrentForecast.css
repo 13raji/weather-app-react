@@ -1,0 +1,22 @@
+.currentWrapper {
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+.current {
+  color: #a15e59;
+  margin-bottom: 5px;
+}
+.currentVariables h6 {
+  font-size: 0.95rem;
+}
+.currentLocation {
+  background-image: linear-gradient(to left, #aacefd 0%, #baa7b9 100%);
+  text-align: right;
+}
+.currentTemp {
+  background-image: linear-gradient(to left, #baa7b9 0%, #aacefd 100%);
+}
+
+.cFooter {
+  margin-top: 16px;
+}
