@@ -1,0 +1,17 @@
+.hoursForecast {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+#forecastTemp {
+  color: #a15e59;
+  font-weight: bold;
+  margin-top: 0.1rem;
+}
+
+#feelsLike {
+  font: small;
+}
