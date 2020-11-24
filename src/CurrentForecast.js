@@ -1,5 +1,6 @@
 import React from "react";
 import "./CurrentForecast.css";
+import ReactAnimatedWeather from 'react-animated-weather';
 
 export default function CurrentForecast() {
   return (
@@ -12,7 +13,12 @@ export default function CurrentForecast() {
             London
           </h3>
           <img src="" alt="" id="icon" />
-          <h1>☁</h1>
+          <ReactAnimatedWeather
+        icon="FOG"
+        color="#707070"
+        size={69}
+        animate={true}
+      />
           <h4 id="description">Overcast</h4>
         </div>
       </div>
@@ -34,7 +40,7 @@ export default function CurrentForecast() {
           <h6 id="humidity">Humidity 12%</h6>
           <h6 id="wind">15mph windspeed</h6>
           <p className="cFooter">
-            Last Updated: 00:00 07/11/20 <span id="dateTimeStamp"></span>
+            Last Updated: 10:00 24/11/20 <span id="dateTimeStamp"></span>
           </p>
         </div>
       </div>
