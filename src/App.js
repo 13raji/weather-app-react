@@ -4,6 +4,7 @@ import CityLinks from "./CityLinks";
 import SearchForm from "./SearchForm";
 import CurrentForecast from "./CurrentForecast";
 import Forecast from "./Forecast";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Forecast />
         <Forecast />
       </div>
+      <Footer />
     </div>
     
   );
