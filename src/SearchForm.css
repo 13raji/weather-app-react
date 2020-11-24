@@ -1,0 +1,14 @@
+form {
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.btn {
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+
+.form-group .form-control {
+  text-align: right;
+}
